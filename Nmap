@@ -1,0 +1,21 @@
+Nmap is open source network scanning tool used for 
+1. Host discovery
+2. OS detection
+3. Port Scanning 
+
+Basic commands of Nmap
+1.nmap hostname
+2.nmap -h
+It shows the help section for nmap command.
+3.nmap -sS <Domain Name>
+-sS flag is used for TCP SYN
+4.nmap -sS <Domain Name> -oG <file-path>
+-oG flag can be used to store the nmap result in to specific file.
+5.nmap -sU <Domain Name>
+-sU flag is used with nmap to perform a UDP scan.
+6.nmap -sn <Domain Name>
+-sn flag is used with nmap to perform a ping scan, which sends ICMP requests to a target host or network to determine hosts is up or not.
+7.nmap -p 80 443 21 <Domain Name>
+-p flag is used with nmap to perform scan on a specific port or range of ports.
+8.nmap -A <Domain Name>
+-A indicates aggressive, it will give us extra information, like OS detection (-O), version detection, script scanning (-sC), and traceroute (--traceroute).
