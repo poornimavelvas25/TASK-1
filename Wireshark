@@ -1,0 +1,12 @@
+Wireshark
+Wireshark is a software tool used to monitor the network traffic through a network interface.
+Packet Monitor:There are color codes for each type of packet. The packets are shown with the following information : 
+1. Source address 
+2. Destination address 
+3. Packet type 
+4. Hex dump of the packet 
+5. Contents of the packet in text 
+6. Source port(if applicable) 
+7. Destination port(if applicable)
+
+Wireshark can color packets based on rules that match particular fields in packets, to help the user identify the types of traffic.
