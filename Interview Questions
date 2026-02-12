@@ -1,0 +1,69 @@
+1. What is an open port?
+An open port is a network port on a device that is actively listening for incoming connections. It means there is a service or application running on that port and it is ready to accept communication from other devices over the network.
+
+2. Why do attackers scan ports?
+Attackers scan ports to gather information about a target system and identify potential entry points. This process is called reconnaissance, which is the first phase of most cyberattacks.
+
+By scanning ports, attackers can:
+
+Discover which devices are active
+
+Identify running services
+
+Determine software versions
+
+Find vulnerable or misconfigured services.
+
+3. Difference between TCP and UDP scan
+TCP and UDP are two different transport protocols used for communication.
+
+TCP Scan:
+
+TCP (Transmission Control Protocol) is connection-oriented.
+It establishes a full connection using a three-way handshake:
+
+SYN
+
+SYN-ACK
+
+ACK
+
+In TCP scanning, tools like Nmap send a SYN packet to check if the port responds. If the port replies with SYN-ACK, it means the port is open.
+
+UDP Scan:
+
+UDP (User Datagram Protocol) is connectionless.
+There is no handshake, so the scanner sends packets and waits for a response or timeout.
+
+4. What is the role of a firewall?
+
+A firewall acts as a security gate between a trusted internal network and an untrusted external network (like the internet). Its main role is to monitor and control incoming and outgoing traffic based on predefined security rules.
+
+Firewall functions:
+
+Block unauthorized access
+
+Allow only required services
+
+Filter malicious traffic
+
+Protect against port scanning.
+
+5.Why Wireshark?
+Wireshark is a network packet analyzer used to capture and inspect network traffic in real time.
+
+Wireshark complements port scanning because:
+
+Nmap shows which ports are open
+
+Wireshark shows what actually happens on the network
+
+Using Wireshark, we can:
+
+See TCP handshakes
+
+Analyze SYN packets
+
+Inspect data being transferred
+
+Detect suspicious traffic
