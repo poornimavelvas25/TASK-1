@@ -8,9 +8,13 @@ Task 1 is about identifying open ports and active devices in the local network u
 
 3.What is Wireshark?
 
-4.Interview Questions.
+4. flitering Commands->
+
+5.Interview Questions.
 
 # TOOLS USED
 1. NMAP
 2. WIRESHARK
+3. kali linux
+   
 
