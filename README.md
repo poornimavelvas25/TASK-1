@@ -8,7 +8,7 @@ Task 1 is about identifying open ports and active devices in the local network u
 
 3.What is Wireshark?
 
-4. flitering Commands->
+4.flitering Commands->
 
 5.Interview Questions.
 
