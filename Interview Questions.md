@@ -34,4 +34,5 @@ A firewall controls which ports are allowed or blocked. It filters traffic based
 A port scan is the process of checking which ports are open on a system. Attackers use it for reconnaissance to find vulnerable services they can target.
 
 8. How does Wireshark complement port scanning?
+   
 Wireshark captures and analyzes network traffic. It helps verify scan results by showing actual packets, responses, and suspicious activity during a port scan.
