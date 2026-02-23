@@ -1,5 +1,6 @@
-                                                        Wireshark
+# Wireshark
 1.What is Wireshark?
+
 Wireshark is an open-source network protocol analyzer used to capture and analyze network traffic in real time.
 It allows users to inspect packets at a detailed level for troubleshooting and security analysis.
 Packet Monitor:There are color codes for each type of packet. The packets are shown with the following information : 
