@@ -1,12 +1,14 @@
 # NMAP
 
 1.What is Nmap?
+
 Nmap is open source network scanning tool used for 
--> Host discovery
--> OS detection
--> Port Scanning
--> Service Version Detection
-->Network Security Auditing
+
+-Host discovery
+-OS detection
+-Port Scanning
+-Service Version Detection
+-Network Security Auditing
 
 
 Basic Commands of Nmap:-
